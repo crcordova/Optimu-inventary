@@ -1,0 +1,13 @@
+﻿sku,familia,subfamilia,marca,tamaño_ml,es_premium,precio_base,margen_pct,elasticidad
+SKU_01,Gaseosas,Cola,MarcaA,355,False,2.5,0.35,-1.2
+SKU_02,Gaseosas,Cola,MarcaB,355,False,2.3,0.32,-1.4
+SKU_03,Gaseosas,Naranja,MarcaA,355,False,2.4,0.33,-1.3
+SKU_04,Jugos,Naranja,MarcaC,500,True,4.2,0.45,-0.8
+SKU_05,Jugos,Manzana,MarcaC,500,True,4.0,0.42,-0.9
+SKU_06,Jugos,Tropical,MarcaD,300,False,3.1,0.38,-1.1
+SKU_07,Aguas,Natural,MarcaE,500,False,1.8,0.4,-1.6
+SKU_08,Aguas,Saborizada,MarcaE,500,False,2.1,0.38,-1.4
+SKU_09,Aguas,Premium,MarcaF,750,True,3.5,0.5,-0.7
+SKU_10,Energizantes,Clásico,MarcaG,250,True,5.5,0.55,-0.6
+SKU_11,Energizantes,SinAzucar,MarcaG,250,True,5.8,0.52,-0.8
+SKU_12,Energizantes,Natural,MarcaH,355,True,6.2,0.48,-0.9
