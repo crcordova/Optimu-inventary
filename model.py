@@ -24,8 +24,7 @@ class Modelo:
     def objetive(self):
         self.model.objective = minimize(
             xsum(self.xMax[i][j] * self.costoInventario[i][j] for i in self.productos for j in self.tiendas) + 
-            xsum(self.xMin[i][j] * self.costoQuiebre
-            [i][j] for i in self.productos for j in self.tiendas)
+            xsum(self.xMin[i][j] * self.costoQuiebre[i][j] for i in self.productos for j in self.tiendas)
         )
         
     def constrains(self):

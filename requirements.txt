@@ -3,3 +3,4 @@ mip
 plotly
 nbformat
 scikit-learn
+xgboost
