@@ -67,10 +67,10 @@ Cantidad de producto `i` en tienda `j`
 
 ## Arquitectura Técnica Propuesta
 
-Consideraría una arquitectura basada en microservicios y un pipeline robusto, 
-primero tener un datalake o warehouse con los diversos datos necesarios (ventas, clima...),
-luego con un orquestador (tipo airflow) consumir la data diariamente y realizar las transformaciones requeridas.
-Nuestro primer microservicio sería el modelo de predicción de la demanda (Forecast), el cual recibe la data y como salida tendríamos el forecast de los productos,
-luego el microservicio de optimización recibirá la data del Forecast con la cual calculará el inventario óptimo de cada tienda, 
-cabe destacar que cada microservicio debe tener su propia DB para almacenar resultados.
-Finalmente tener el microservicio de reporting que consumirá la data de los modelos, con el cual se podrán tomar las decisiones pertinentes
+- Consideraría una arquitectura basada en microservicios y un pipeline robusto, 
+- primero tener un datalake o warehouse con los diversos datos necesarios (ventas, clima...),
+- luego con un orquestador (tipo airflow) consumir la data diariamente y realizar las transformaciones requeridas.
+- Nuestro primer microservicio sería el modelo de predicción de la demanda (Forecast), el cual recibe la data y como salida tendríamos el forecast de los productos,
+- luego el microservicio de optimización recibirá la data del Forecast con la cual calculará el inventario óptimo de cada tienda, 
+- cabe destacar que cada microservicio debe tener su propia DB para almacenar resultados.
+- Finalmente tener el microservicio de reporting que consumirá la data de los modelos, el cual permite tomar decisiones estratégicas.
