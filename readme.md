@@ -10,7 +10,7 @@ Desarrollar un sistema de forecasting de demanda y reposición de inventario par
 - Para comenzar, ejecutar el notebook `sales_forecast.ipynb` el cual generara el archivo `data/forecast.csv` que contendra las predicciones
 - Finalmente ejecutar `inventarios.ipynb` que mostrara el resultado del modelo de optimización `model.py`
 
-#### No olvidar Instala las dependencias:
+#### No olvidar Instalar librerias:
 
 ```bash
 pip install -r requirements.txt
