@@ -4,6 +4,18 @@
 
 Desarrollar un sistema de forecasting de demanda y reposición de inventario para una cadena de retail que comercializa bebidas (Gaseosas, Jugos, Aguas) en 5 tiendas. El objetivo es optimizar la disponibilidad de productos, minimizar quiebres de stock y reducir costos de inventario.  
 
+## Estructura del proyecto
+
+- La data a utilizar estara en la carperta `data`
+- Para comenzar, ejecutar el notebook `sales_forecast.ipynb` el cual generara el archivo `data/forecast.csv` que contendra las predicciones
+- Finalmente ejecutar `inventarios.ipynb` que mostrara el resultado del modelo de optimización `model.py`
+
+#### No olvidar Instala las dependencias:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Parte I: Predicción de Demanda
 
 Se desarrolló un pipeline de forecasting a nivel SKU-tienda utilizando:
@@ -16,7 +28,7 @@ Se desarrolló un pipeline de forecasting a nivel SKU-tienda utilizando:
 
 ### Problema  
 
-Formular un modelo de programación lineal entera, que decida semanalmente el inventario de cada producto en cada tienda 
+Formular un modelo de programación lineal entera, que decida semanalmente el inventario que debe tener cada tienda 
 
 ### Función objetivo
 
